@@ -1,16 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArcgisMapComponent } from './arcgis-map/arcgis-map.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArcgisMapComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
